@@ -45,6 +45,8 @@ After checking, the script updates the file_hashes.json file with the latest has
 
 **[INFO]** Integrity check completed.
 
+
+
 **TOOL 2 : WEB APPLICATION VULNERABILITY SCANNER**
 
 This Python-based Web Application Vulnerability Scanner is designed to identify common security weaknesses in web applications, such as SQL Injection (SQLi) and Cross-Site Scripting (XSS). The tool automates scanning by analyzing web forms and injecting test payloads to detect vulnerabilities.
