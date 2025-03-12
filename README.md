@@ -6,7 +6,7 @@ EliteTechIntern is a repository dedicated to projects, assignments, and resource
 
 File Integrity Checker designed to monitor changes in files by calculating and comparing hash values. It helps detect unauthorized modifications, additions, or deletions of files in a specified directory, making it useful for security monitoring and forensic analysis.
 
-**How It Works**
+📌 **How It Works**
 
 1️⃣**Calculates File Hashes**
 Uses SHA-256 hashing via the hashlib library.
