@@ -5,6 +5,7 @@ EliteTechIntern is a repository dedicated to projects, assignments, and resource
 **File Integrity Checker**
 
 File Integrity Checker designed to monitor changes in files by calculating and comparing hash values. It helps detect unauthorized modifications, additions, or deletions of files in a specified directory, making it useful for security monitoring and forensic analysis.
+
 **How It Works**
 
 1️⃣**Calculates File Hashes**
@@ -24,7 +25,9 @@ If a file is missing, it reports it as deleted.
 After checking, the script updates the file_hashes.json file with the latest hash values for future monitoring.
 
 📌 **How to Use**
+
 **🚀 Running the Script**
+
 1. Save the script as file_integrity_checker.py.
 2. Run the script 
 3. Enter the directory to monitor when prompted.
