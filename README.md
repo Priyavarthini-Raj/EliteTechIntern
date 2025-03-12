@@ -1,6 +1,6 @@
 # EliteTechIntern
  
-EliteTechIntern is a repository dedicated to projects, assignments, and resources from my internship at EliteTech Intern in the field of Cyber Forensics, Information Security, and Cybersecurity. This repository serves as a structured collection of hands-on tasks, research materials, and technical documentation that I have worked on during my virtual internship, contributing to my professional development and industry expertise.
+EliteTechIntern is a repository dedicated to projects, assignments, and resources from my internship at EliteTech Intern in the field of Cybersecurity. This repository serves as a structured collection of hands-on tasks, research materials, and technical documentation that I have worked on during my virtual internship, contributing to my professional development and industry expertise.
 
 **File Integrity Checker**
 
@@ -32,3 +32,15 @@ After checking, the script updates the file_hashes.json file with the latest has
 2. Run the script 
 3. Enter the directory to monitor when prompted.
 4. Check for warnings about modified, new, or deleted files.
+
+🛠 **Example Usage**
+
+**Enter the directory to monitor:** /home/user/documents
+
+**[NEW]** New file detected: /home/user/documents/report.pdf
+
+**[WARNING]** File changed: /home/user/documents/config.txt
+
+**[DELETED]** File missing: /home/user/documents/logs.log
+
+**[INFO]** Integrity check completed.
