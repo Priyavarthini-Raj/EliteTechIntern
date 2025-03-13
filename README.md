@@ -112,14 +112,14 @@ Ensure you have Python installed, along with the required libraries:
 
 [INFO] Scanning completed.
 
-
-
 **TOOL 3 : PENETRATION TESTING TOOLKIT**
 
 The Penetration Testing Toolkit is a Python-based 🐍 modular toolkit designed for ethical hackers and cybersecurity professionals. It includes multiple modules to assist in penetration testing:
 
 🔍 Port Scanner – Scans for open ports on a target machine.
+
 🔑 SSH Brute Forcer – Attempts to crack SSH credentials using a password list.
+
 🌐 HTTP Status Checker – Checks if a website is online or offline.
 
 **📌How It Works**
@@ -127,19 +127,25 @@ The Penetration Testing Toolkit is a Python-based 🐍 modular toolkit designed 
 **1️⃣ Port Scanner 🔍**
 
 ✅ Takes a target IP and a list of ports.
+
 ✅ Uses Python’s socket module to detect open ports.
+
 ✅ Prints results for open ports.
 
 **2️⃣ SSH Brute Forcer 🔑**
 
 ✅ Takes a target IP, SSH username, and password list.
+
 ✅ Tries different passwords from the list.
+
 ✅ If successful, it prints credentials.
 
 **3️⃣ HTTP Status Checker 🌐**
 
 ✅ Takes a URL as input.
+
 ✅ Sends a request using requests and returns the status code.
+
 ✅ Checks if the website is online or offline.
 
 **📌 How to Use**
@@ -198,4 +204,48 @@ Enter the website URL: https://example.com
 
 ✅ The tool checks if the website is online or offline and shows the HTTP status code.
 
+**TOOL 4 : ADVANCED ENCRYPTION TOOL (AES-256)**
+
+The Advanced Encryption Tool is a Python-based application that allows users to encrypt and decrypt files using the AES-256 encryption algorithm. It ensures strong security for sensitive files while providing a simple GUI interface for ease of use.
+
+**📌 How It Works**
+
+1️⃣ The script generates a random AES-256 key and saves it in a file (aes_key.key).
+
+2️⃣ **Encrypting:**
+
+Reads the file and generates a random IV (16 bytes)
+Uses AES-CBC mode for encryption
+Applies PKCS7 padding to make the data a multiple of 16 bytes
+Saves the encrypted file with the IV included
+
+**3️⃣ Decrypting:**
+
+Reads the IV from the encrypted file
+Uses the same AES-256 key to decrypt the file
+Removes padding and restores the original file
+
+**📌 How to Use**
+
+**1. Run the Application**
+
+**2. Execute the script:**
+
+            python encryption_tool.py
+
+**Encrypt a File**
+
+1️⃣ Click "Encrypt File"
+
+2️⃣ Select a file from your system
+
+3️⃣ The tool will encrypt it and save it as <filename>.enc
+
+**Decrypt a File**
+
+1️⃣ Click "Decrypt File"
+
+2️⃣ Select an encrypted .enc file
+
+3️⃣ The tool will decrypt and restore the original file
 
